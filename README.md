@@ -15,6 +15,6 @@ The client that initiated the deletion will send an instruction to delete the fi
 Clients will vote to commit or abort based on a random probability. After receiving a vote request, the clients will wait three seconds prior to voting. The user should be notified of a client’s vote on that respective client’s GUI. Once a client has initiated a deletion, the reminder of the process should be handled without user intervention. Your program will repeat this sequence, beginning with any individual client, as many times as necessary until the program is killed. Files will not be deleted concurrently.
 Clients will prompt the user for a username. When a client connects to the server, its username should be displayed by the server in real time. Two or more clients may not have the same username. Should the server detect a conflict in username, the client’s connection should be rejected, and the client’s user should be prompted to input a different name.
 
-Steps to Run:
+to Run Project:
 1- Run Server
 2- Run clients
