@@ -15,6 +15,37 @@ The client that initiated the deletion will send an instruction to delete the fi
 Clients will vote to commit or abort based on a random probability. After receiving a vote request, the clients will wait three seconds prior to voting. The user should be notified of a client’s vote on that respective client’s GUI. Once a client has initiated a deletion, the reminder of the process should be handled without user intervention. Your program will repeat this sequence, beginning with any individual client, as many times as necessary until the program is killed. Files will not be deleted concurrently.
 Clients will prompt the user for a username. When a client connects to the server, its username should be displayed by the server in real time. Two or more clients may not have the same username. Should the server detect a conflict in username, the client’s connection should be rejected, and the client’s user should be prompted to input a different name.
 
-to Run Project:
-1- Run Server
-2- Run clients
+# Libraries:
+1- common.Util.
+2- java.io.File.
+3-  javafx.application.Platform;
+import javafx.application.Platform;
+import javafx.event.EventHandler;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.ListCell;
+import javafx.scene.control.ListView;
+import javafx.scene.control.TextField;
+import javafx.scene.paint.Color;
+import javafx.scene.text.Font;
+import javafx.stage.DirectoryChooser;
+import javafx.stage.WindowEvent;
+import javafx.util.Callback;
+import java.io.File;
+import java.net.URL;
+import java.util.ResourceBundle;
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.nio.file
+ 
+# To Run Project:
+1- Run Server.
+2- Run clients.
