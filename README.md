@@ -16,36 +16,36 @@ Clients will vote to commit or abort based on a random probability. After receiv
 Clients will prompt the user for a username. When a client connects to the server, its username should be displayed by the server in real time. Two or more clients may not have the same username. Should the server detect a conflict in username, the client’s connection should be rejected, and the client’s user should be prompted to input a different name.
 
 # Libraries:
-1- common.Util.
-2- java.io.File.
-3-  javafx.application.Platform;
-import javafx.application.Platform;
-import javafx.event.EventHandler;
-import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.ListCell;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
-import javafx.scene.paint.Color;
-import javafx.scene.text.Font;
-import javafx.stage.DirectoryChooser;
-import javafx.stage.WindowEvent;
-import javafx.util.Callback;
-import java.io.File;
-import java.net.URL;
-import java.util.ResourceBundle;
-import java.io.IOException;
-import java.net.InetAddress;
-import java.net.ServerSocket;
-import java.net.Socket;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.nio.file
+1- common.Util.<br />
+2- java.io.File.<br />
+3-  javafx.application.Platform;<br />
+import javafx.application.Platform;<br />
+import javafx.event.EventHandler;<br />
+import javafx.fxml.FXML;<br />
+import javafx.fxml.Initializable;<br />
+import javafx.scene.control.Button;<br />
+import javafx.scene.control.ListCell;<br />
+import javafx.scene.control.ListView;<br />
+import javafx.scene.control.TextField;<br />
+import javafx.scene.paint.Color;<br />
+import javafx.scene.text.Font;<br />
+import javafx.stage.DirectoryChooser;<br />
+import javafx.stage.WindowEvent;<br />
+import javafx.util.Callback;<br />
+import java.io.File;<br />
+import java.net.URL;<br />
+import java.util.ResourceBundle;<br />
+import java.io.IOException;<br />
+import java.net.InetAddress;<br />
+import java.net.ServerSocket;<br />
+import java.net.Socket;<br />
+import java.util.ArrayList;<br />
+import java.util.Collections;<br />
+import java.util.List;<br />
+import java.util.concurrent.ExecutorService;<br />
+import java.util.concurrent.Executors;<br />
+import java.nio.file<br />
  
 # To Run Project:
-1- Run Server.
-2- Run clients.
+1- Run Server.<br />
+2- Run clients.<br />
